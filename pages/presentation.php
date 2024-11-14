@@ -1,4 +1,5 @@
 <?php include('../header.php'); ?>
+<link rel="stylesheet" href="../assets/css/presentation.css">
 
 <div class="content">
     <h2>Présentation</h2>
