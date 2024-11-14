@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('../header.php'); ?>
 
 <div class="content">
     <h2>Présentation</h2>
@@ -11,4 +11,4 @@
     </div>
 </div>
 
-<?php include('footer.php'); ?>
+<?php include('../footer.php'); ?>
