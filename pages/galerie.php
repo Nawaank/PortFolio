@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('../header.php'); ?>
 
 <div class="content">
     <h2>Galerie</h2>
@@ -26,6 +26,6 @@
     </div>
 </div>
 
-<script src="assets/js/script.js"></script>
+<?php include('../footer.php'); ?>
 
-<?php include('footer.php'); ?>
+<script src="assets/js/script.js"></script>
