@@ -4,5 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     burger.addEventListener('click', () => {
         menu.classList.toggle('show');
+        burger.classList.toggle('open'); // Ajout de la classe pour l'animation
     });
 });

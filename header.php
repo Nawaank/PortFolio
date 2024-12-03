@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/header.css">
     <title>Menu Adaptatif</title>
 </head>
 <body>
     <header>
         <nav>
+            <div class="title">Mon Site</div>
             <div class="burger">
                 <span></span>
                 <span></span>
@@ -23,6 +24,6 @@
             </ul>
         </nav>
     </header>
-    <script src="menuBg.js"></script>
+    <script src="assets/js/menuBg.js"></script>
 </body>
 </html>
