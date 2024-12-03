@@ -1,36 +1,28 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de Martin DAYOT</title>
-    <link rel="stylesheet" href="../assets/css/presentation.css">
-    <link rel="stylesheet" href="../assets/css/contact.css">
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <title>Menu Adaptatif</title>
 </head>
 <body>
     <header>
-        <div class="header-left">
-            <h1>Martin DAYOT</h1>
-            <div class="burger-menu" onclick="toggleMenu()">
-                <div></div>
-                <div></div>
-                <div></div>
+        <nav>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </div>
-        <div class="header-right">
-            <a href="presentation.php">Présentation</a>
-            <a href="galerie.php">Photos</a>
-            <a href="contact.php">Me Contacter</a>
-        </div>
+            <ul class="menu">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <script>
-    function toggleMenu() {
-        const headerRight = document.querySelector('.header-right');
-        const burgerMenu = document.querySelector('.burger-menu');
-        headerRight.classList.toggle('active');
-        burgerMenu.classList.toggle('active');
-    }
-    </script>
+    <script src="menuBg.js"></script>
 </body>
 </html>

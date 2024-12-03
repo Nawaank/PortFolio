@@ -1,0 +1,68 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    display: none; /* Masqué par défaut */
+}
+
+.burger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Par défaut, le menu est affiché */
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    color: #f0a500;
+}
+
+/* Styles pour petit écran */
+@media screen and (max-width: 768px) {
+    .burger {
+        display: flex; /* Afficher l'icône burger */
+    }
+
+    .menu {
+        display: none; /* Masquer le menu */
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        background-color: #444;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .menu.show {
+        display: flex; /* Afficher le menu quand actif */
+    }
+}
