@@ -5,6 +5,12 @@ body {
     background-color: #f4f4f9;
     color: #333;
 }
+.allContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .insta{
     display: flex;
     flex-direction: row;
