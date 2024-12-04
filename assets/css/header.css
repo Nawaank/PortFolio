@@ -5,10 +5,11 @@ body {
 }
 
 header {
-    background-color: #0D2A45;
+    background-color: #0d2a45;
     color: white;
     padding: 10px 20px;
-    position: relative;
+    width: -webkit-fill-available;
+    position: fixed;
     height: 40px;
 }
 
@@ -70,11 +71,11 @@ nav {
     transition: background-color 0.3s, color 0.3s, font-weight 0.3s;
 }
     
-.menu li a:hover[href="#home"] {
+.menu li a:hover[href="#presentation"] {
     color: #83B692;
 }
 
-.menu li a:hover[href="#about"] {
+.menu li a:hover[href="#photo"] {
     color: #f0a500;
 }
 
@@ -92,10 +93,11 @@ nav {
         top: 0; /* Placer le menu juste en haut, à la même position que le header */
         left: 0;
         width: 100%; /* Prendre toute la largeur de l'écran */
-        background-color: #444;
+        background-color: #0D2A45;
         margin: 55px 0 10px; /* Ajuster l'espace intérieur : 60px pour compenser la hauteur du header */
         z-index: 1000;
         align-items: center;
+        gap: 0;
     }
 
     .menu.show {
@@ -103,7 +105,14 @@ nav {
     }
 
     .menu li {
-        margin: 10px 0; /* Espacement vertical entre les liens */
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .menu li:last-child {
+        border-bottom: none; /* Supprimer la bordure du dernier élément */
     }
 
     .menu li a {

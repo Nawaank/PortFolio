@@ -1,14 +1,28 @@
 .presentation{
-    background-color: #f8f9fa;
-    padding: 50px 0;
+    background-color: #0D2A45;
+    color: white;
+    padding: 2vh 2vw;
+    margin: 9vh 0 3vw 0;
     width: 50vw;
     display: flex;
     flex-direction: row;
+    border-radius: 15px;
 }
 
 .presentation img{
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     object-fit:cover;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .presentation{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .presentation img{
+        width: 30vw;
+        height: 30vw;
+    }
 }

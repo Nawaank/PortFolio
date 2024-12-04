@@ -4,7 +4,7 @@ footer {
     background-color: #0D2A45;
     color: white;
     position: relative;
-    width: 100%;
+    width: auto;
     bottom: 0;
 }
 footer span {
