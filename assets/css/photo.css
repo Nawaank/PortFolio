@@ -25,12 +25,16 @@
     display: flex;
     flex-direction: row;
 }
+@media screen and (max-width: 768px) {
+    .allGrid {
+        flex-direction: column;
+    }
+}
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
-    width: 80%;
     max-width: 800px;
     height: 415px;
     margin: 10px;

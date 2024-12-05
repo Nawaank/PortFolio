@@ -11,6 +11,11 @@ header {
     width: -webkit-fill-available;
     position: fixed;
     height: 40px;
+    z-index: 1000;
+}
+
+header span{
+    color: #f0a500;
 }
 
 nav {

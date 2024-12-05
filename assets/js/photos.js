@@ -30,8 +30,8 @@ function showContent(year) {
 document.getElementById('btn-2022').addEventListener('click', () => showContent('2022'));
 document.getElementById('btn-2023').addEventListener('click', () => showContent('2023'));
 document.getElementById('btn-2024').addEventListener('click', () => showContent('2024'));
+document.getElementById('btn-2025').addEventListener('click', () => showContent('2025'));
 
-// Afficher la section 2024 par défaut au chargement de la page
 document.addEventListener('DOMContentLoaded', () => {
-    showContent('2024');
+    showContent('2024'); 
 });

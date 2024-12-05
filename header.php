@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/presentation.css">
     <link rel="stylesheet" href="assets/css/photo.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
     <title>Menu Adaptatif</title>
 </head>
 <body>
     <header>
         <nav>
-            <div class="title">Martin DAYOT</div>
+            <div class="title">Martin <span>DAYOT</span></div>
             <div class="burger">
                 <span></span>
                 <span></span>
@@ -48,6 +51,7 @@
             <div id="photo">
                 <h1>Mes Photos</h1>
                 <div class="bouton année">
+                    <button id="btn-2025">2025</button>                                 
                     <button id="btn-2024">2024</button>                                 
                     <button id="btn-2023">2023</button>
                     <button id="btn-2022">2022</button>
@@ -147,6 +151,40 @@
                             </div>
                         </div>
                     </div>   
+                </div>    
+            </div>
+            <div class="contact-wrapper">
+                <!-- Title Section -->
+                <h1 class="contact-title">Restons en contact</h1>
+                    
+                <!-- Circle Container -->
+                <div class="circle-container">
+                    <div class="circle">
+                        <img src="assets/images/peugeot_endurance.png" alt="Illustration" class="circle-image">
+                    </div>
+
+                    <div class="info">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <span>Votre Nom Prénom</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:example@example.com">example@example.com</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+33123456789">+33 1 23 45 67 89</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-instagram"></i>
+                            <a href="https://instagram.com/votrecompte" target="_blank">@votrecompte</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-tiktok"></i>
+                            <a href="https://tiktok.com/@votrecompte" target="_blank">@votrecompte</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
