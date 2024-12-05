@@ -1,13 +1,76 @@
-.photos {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 16px;
-    padding: 16px;
+#photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+    .hidden {
+    display: none;
+}
+.bouton.année button {
+    background-color: transparent;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.photos img {
+.bouton.année button.active {
+    background-color: #003366; /* Bleu foncé */
+    color: white;
+}
+
+.allGrid{
+    display: flex;
+    flex-direction: row;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+    max-width: 800px;
+    height: 415px;
+    margin: 10px;
+}
+
+.image-container {  
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.image1 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.image2 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.image3 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.image4 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.image-container img {
     width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+    opacity: 0.9;
 }

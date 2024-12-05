@@ -46,13 +46,106 @@
             </div>
             <div id="photo">
                 <h1>Mes Photos</h1>
-                <div class="photos">
-                    <img src="assets/images/alpha_romeo_stradale.png" alt="photo1">
-                    <img src="assets/images/audi_endurance_2.jpg" alt="photo2">
-                    <img src="assets/images/audi_endurance.jpg" alt="photo3">
-                    <img src="assets/images/bmw.jpg" alt="photo4">
-                    <img src="assets/images/mclaren.jpg" alt="photo5">
-                    <img src="assets/images/porsche_gt3rs.jpg" alt="photo6">
+                <div class="bouton année">
+                    <button id="btn-2024">2024</button>                                 
+                    <button id="btn-2023">2023</button>
+                    <button id="btn-2022">2022</button>
+                </div>
+                <div class="content" id="content-2022">
+                    <div class="allGrid">
+                        <div class="image-grid">
+                            <div class="image-container image1">
+                                <img src="assets/images/porsche_gt3rs.jpg" alt="photo6">
+                            </div>
+                            <div class="image-container image2">
+                                <img src="assets/images/audi_endurance.jpg" alt="photo3">
+                            </div>
+                            <div class="image-container image3">
+                                <img src="assets/images/alpha_romeo_stradale.png" alt="photo1">
+                            </div>
+                            <div class="image-container image4">
+                                <img src="assets/images/audi_endurance_2.jpg" alt="photo2">
+                            </div>
+                        </div>
+                        <div class="image-grid">
+                            <div class="image-container image1">
+                                <img src="assets/images/porsche_gt3rs.jpg" alt="photo6">
+                            </div>
+                            <div class="image-container image2">
+                                <img src="assets/images/audi_endurance.jpg" alt="photo3">
+                            </div>
+                            <div class="image-container image3">
+                                <img src="assets/images/alpha_romeo_stradale.png" alt="photo1">
+                            </div>
+                            <div class="image-container image4">
+                                <img src="assets/images/audi_endurance_2.jpg" alt="photo2">
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="content hidden" id="content-2023">
+                    <div class="allGrid">
+                        <div class="image-grid">
+                            <div class="image-container image1">
+                                <img src="assets/images/porsche_gt3rs.jpg" alt="photo6">
+                            </div>
+                            <div class="image-container image2">
+                                <img src="assets/images/audi_endurance.jpg" alt="photo3">
+                            </div>
+                            <div class="image-container image3">
+                                <img src="assets/images/alpha_romeo_stradale.png" alt="photo1">
+                            </div>
+                            <div class="image-container image4">
+                                <img src="assets/images/audi_endurance_2.jpg" alt="photo2">
+                            </div>
+                        </div>
+                        <div class="image-grid">
+                            <div class="image-container image1">
+                                <img src="assets/images/porsche_gt3rs.jpg" alt="photo6">
+                            </div>
+                            <div class="image-container image2">
+                                <img src="assets/images/audi_endurance.jpg" alt="photo3">
+                            </div>
+                            <div class="image-container image3">
+                                <img src="assets/images/alpha_romeo_stradale.png" alt="photo1">
+                            </div>
+                            <div class="image-container image4">
+                                <img src="assets/images/audi_endurance_2.jpg" alt="photo2">
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="content hidden" id="content-2024"> 
+                    <div class="allGrid">
+                        <div class="image-grid">
+                            <div class="image-container image1">
+                                <img src="assets/images/porsche_gt3rs.jpg" alt="photo6">
+                            </div>
+                            <div class="image-container image2">
+                                <img src="assets/images/audi_endurance.jpg" alt="photo3">
+                            </div>
+                            <div class="image-container image3">
+                                <img src="assets/images/alpha_romeo_stradale.png" alt="photo1">
+                            </div>
+                            <div class="image-container image4">
+                                <img src="assets/images/audi_endurance_2.jpg" alt="photo2">
+                            </div>
+                        </div>
+                        <div class="image-grid">
+                            <div class="image-container image1">
+                                <img src="assets/images/porsche_gt3rs.jpg" alt="photo6">
+                            </div>
+                            <div class="image-container image2">
+                                <img src="assets/images/audi_endurance.jpg" alt="photo3">
+                            </div>
+                            <div class="image-container image3">
+                                <img src="assets/images/alpha_romeo_stradale.png" alt="photo1">
+                            </div>
+                            <div class="image-container image4">
+                                <img src="assets/images/audi_endurance_2.jpg" alt="photo2">
+                            </div>
+                        </div>
+                    </div>   
                 </div>
             </div>
         </div>
@@ -61,5 +154,6 @@
         <p><span>&copy;</span> 2024 Martin DAYOT - Tous droits réservés</p>
     </footer>
     <script src="assets/js/menuBg.js"></script>
+    <script src="assets/js/photos.js"></script>
 </body>
 </html>
