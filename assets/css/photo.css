@@ -88,3 +88,35 @@
 .image-container:hover img {
     transform: scale(1.1); /* Zoom sur l'image */
 }
+
+/* Deuxième grid */
+.image-grid-second {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 800px;
+    height: 415px;
+    margin: 10px;
+}
+
+/* Exemple de disposition différente */
+.image-grid-second .image1 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.image-grid-second .image2 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.image-grid-second .image3 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.image-grid-second .image4 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
