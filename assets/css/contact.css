@@ -2,7 +2,7 @@
 .contact-wrapper {
     text-align: center;
     max-width: 900px;
-    width: 100%;
+    width: auto;
     padding: 20px;
     background-color: #0d2a45;
     border-radius: 15px;
