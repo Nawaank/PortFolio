@@ -4,13 +4,16 @@
     max-width: 900px;
     width: 100%;
     padding: 20px;
+    background-color: #0d2a45;
+    border-radius: 15px;
+    margin: 15px;
 }
 
 /* Title */
 .contact-title {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #2d3436;
+    color: #f0a500;
 }
 
 /* Circle Section */
@@ -65,15 +68,21 @@
     transition: background 0.3s ease, transform 0.3s ease;
 }
 
+.info-item span {
+    color: #f0a500;
+}
+.info-item:hover span {
+    color: white;
+}
 .info-item:hover {
-    background: #0078ff;
+    background: #f0a500;
     color: white;
     transform: translateY(-5px);
 }
 
 .info-item i {
     font-size: 1.5rem;
-    color: #0078ff;
+    color: #f0a500;
     transition: color 0.3s ease;
 }
 
@@ -83,7 +92,7 @@
 
 .info-item a {
     text-decoration: none;
-    color: #0078ff;
+    color: #f0a500;
     transition: color 0.3s ease;
 }
 
