@@ -3,15 +3,19 @@
     color: white;
     padding: 2vh 2vw;
     margin: 9vh 0 3vw 0;
-    width: 50vw;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     border-radius: 15px;
+    gap: 15px;
+    align-items: center;
 }
-
+.text{
+    width: 70%;
+}
 .presentation img{
-    width: 15vw;
-    height: 15vw;
+    width: 20vw;
+    height: 20vw;
     object-fit:cover;
     border-radius: 50%;
     z-index: 1;
