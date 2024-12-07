@@ -30,6 +30,9 @@
         flex-direction: column-reverse;
         align-items: center;
     }
+    .text{
+        width: 100%;
+    }
     .presentation img{
         width: 30vw;
         height: 30vw;
