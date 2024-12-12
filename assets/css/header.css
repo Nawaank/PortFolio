@@ -9,7 +9,6 @@ header {
     color: white;
     padding: 10px 20px;
     width: -webkit-fill-available;
-    position: fixed;
     z-index: 1000;
 }
 
@@ -23,7 +22,11 @@ nav {
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
-    color: firebrick;
+    color: #5E7897;
+}
+
+.title span{
+    color: #A70D22;
 }
 
 .burger {
@@ -38,7 +41,7 @@ nav {
     display: block;
     width: 30px;
     height: 3px;
-    background-color: #f0a500;
+    background-color: #5E7897;
     border-radius: 5px;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
@@ -83,8 +86,8 @@ nav {
         top: 0; /* Placer le menu juste en haut, à la même position que le header */
         left: 0;
         width: 100%; /* Prendre toute la largeur de l'écran */
-        background-color: #0D2A45;
-        margin: 55px 0 10px; /* Ajuster l'espace intérieur : 60px pour compenser la hauteur du header */
+        background-color: #ffffff;
+        margin: 100px 0 10px; 
         z-index: 1000;
         align-items: center;
         gap: 0;
@@ -94,21 +97,25 @@ nav {
         display: flex; /* Afficher le menu quand actif */
     }
 
+    .menu li a {
+        text-decoration: none;
+        color: #5E7897;
+        background-color: #ffffff;
+        padding: 10px 20px; /* Ajouter de l'espace autour des liens */
+        font-size: 1.2rem;
+    }
+
     .menu li {
         text-align: center;
         width: 100%;
         padding: 10px 0;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #5E7897;
     }
 
     .menu li:last-child {
         border-bottom: none; /* Supprimer la bordure du dernier élément */
     }
 
-    .menu li a {
-        padding: 10px 20px; /* Ajouter de l'espace autour des liens */
-        font-size: 1.2rem;
-    }
 
     .burger {
         display: flex; /* Afficher le bouton burger sur petit écran */
