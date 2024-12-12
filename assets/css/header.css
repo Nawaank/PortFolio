@@ -5,17 +5,12 @@ body {
 }
 
 header {
-    background-color: #0d2a45;
+    background-color: #ffffff;
     color: white;
     padding: 10px 20px;
     width: -webkit-fill-available;
     position: fixed;
-    height: 40px;
     z-index: 1000;
-}
-
-header span{
-    color: #f0a500;
 }
 
 nav {
@@ -28,6 +23,7 @@ nav {
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
+    color: firebrick;
 }
 
 .burger {
@@ -72,20 +68,9 @@ nav {
     text-decoration: none;
     color: white;
     padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s, font-weight 0.3s;
-}
-    
-.menu li a:hover[href="#presentation"] {
-    color: #83B692;
-}
-
-.menu li a:hover[href="#photo"] {
-    color: #f0a500;
-}
-
-.menu li a:hover[href="#contact"] {
-    color: #0099CC;
+    border-radius: 2px;
+    background-color: #A70D22;
+    padding: 10px;
 }
 
 
