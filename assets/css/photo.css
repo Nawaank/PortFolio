@@ -1,12 +1,16 @@
+footer{
+    position: relative;
+}
+main{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
 .card {
     width: 443px;
     height: 572px;
-    background: 
-        linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 90%), /* Dégradé transparent vers noir */
-        url('../images/supra_mk5.jpg'); /* Image de fond */
-    background-size: cover; /* Ajuste pour remplir le conteneur */
-    background-position: center; /* Centre l'image */
-    background-repeat: no-repeat; /* Empêche la répétition */
     border-radius: 15px;
     padding: 15px;
     color: #ffffff;
@@ -14,8 +18,49 @@
     flex-direction: column;
     justify-content:end ;
 }
+
+
 .jetaime{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#first{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 90%), /* Dégradé transparent vers noir */
+        url('../images/porsche.jpg'); /* Image de fond */
+    background-size: cover; /* Ajuste pour remplir le conteneur */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+}
+#second{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 90%), /* Dégradé transparent vers noir */
+        url('../images/bmw.jpg'); /* Image de fond */
+    background-size: cover; /* Ajuste pour remplir le conteneur */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+}
+#third{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 90%), /* Dégradé transparent vers noir */
+        url('../images/Ferrari_F8.jpg'); /* Image de fond */
+    background-size: cover; /* Ajuste pour remplir le conteneur */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+}
+#four{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 90%), /* Dégradé transparent vers noir */
+        url('../images/bmw_gp.jpg'); /* Image de fond */
+    background-size: cover; /* Ajuste pour remplir le conteneur */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+}
+#five{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 90%), /* Dégradé transparent vers noir */
+    url('../images/honda_civic.jpg'); /* Image de fond */
+background-size: cover; /* Ajuste pour remplir le conteneur */
+background-position: center; /* Centre l'image */
+background-repeat: no-repeat; /* Empêche la répétition */
 }
